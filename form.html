@@ -1,0 +1,38 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM PAGE</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Info</legend>
+            Name: <input type="text" name="name" required><br><br>
+            Email: <input type="email" name="email" required><br><br>
+            Password: <input type="password" name="password" required><br><br>
+            Gender:
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female<br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Interests & Country</legend>
+            Interests:
+            <input type="checkbox" name="interest" value="Technology"> Technology
+            <input type="checkbox" name="interest" value="Art"> Art<br><br>
+            Country:
+            <select name="country">
+                <option>TANZANIA</option>
+                <option>KENYA</option>
+                <option>UGANDA</option>
+            </select><br><br>
+        </fieldset>
+
+        Upload profile picture: <input type="file" name="profile"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
